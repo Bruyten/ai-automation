@@ -1,0 +1,24 @@
+/* Custom styling implementations */
+@keyframes pulseGlow {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; filter: drop-shadow(0 0 10px rgba(124, 58, 237, 0.4)); }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-radius: 9999px;
+}
+
+.workspace-canvas-pre {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(3, 7, 18, 0.8);
+}
