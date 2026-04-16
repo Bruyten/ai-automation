@@ -150,6 +150,7 @@ input:checked + .toggle-slider:before {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 0;
+  min-height: none;
 }
 
 @media (max-width: 1024px) {
@@ -162,7 +163,7 @@ input:checked + .toggle-slider:before {
 .panel {
   padding: 2rem;
   overflow: visible;
-  max-height: calc(100vh - 140px);
+  max-height: none;
 }
 
 .input-panel {
